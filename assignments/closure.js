@@ -15,7 +15,8 @@ function sandwichbottom (){
     console.log (`What goes inside? ${layer2}`);
 
     function sandwich(){ 
-      console.log (`What goes on the top of the Ham? ${layer3} more ${layer1}`);
+      console.log 
+      (`What goes on the top of the Ham? ${layer3} More ${layer1}`);
      
        
       };
@@ -27,28 +28,28 @@ function sandwichbottom (){
 
 //! STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
-//#Also Included IIFE
+//#Also Included IIFE in Challenge 3 (couldn't figure out the challenge but helped Cathrine Kim with her IIFE)
 
 
 //@ ==== Challenge 2: Implement a "counter maker" function ====
 //@ IMPLEMENTATION OF counterMaker:
   //@ 1- Declare a `count` variable with a value of 0. We will be mutating it, so declare it using `let`!
   //@ 2- Declare a function `counter`. It should increment and return `count`.
-  //@      NOTE: This `counter` function, being nested inside `counterMaker`,
-  //@      "closes over" the `count` variable. It can "see" it in the parent scope!
+  //@ NOTE: This `counter` function, being nested inside `counterMaker`,
+  //@ "closes over" the `count` variable. It can "see" it in the parent scope!
   //@ 3- Return the `counter` function.
+// let count = 0
+//   const counterMaker = () => {
+//     return counter = () => { 
+//       count = count + 1 
+//       return count; 
+//   };
+//   }; 
+// const increment = counterMaker();
 
- /*  const counterMaker = () => {
-    function counter() { 
-    while (count < 10)
-    count += "The number is " + count;
-    count++
-  }();
-  let count = 0
-  }; 
-
-
- console.log(counterMaker); */
+// console.log(increment());
+// console.log(increment());
+// console.log(increment());
 
 //@ Example usage: const myCounter = counterMaker();
 //@ myCounter(); //@ 1
@@ -57,6 +58,24 @@ function sandwichbottom (){
 //@ ==== Challenge 3: Make `counterMaker` more sophisticated ====
 //@ It should have a `limit` parameter. Any counters we make with `counterMaker`
 //@ will refuse to go over the limit, and start back at 1.
+
+// let count = 0
+// let limit = 10
+//    const counterMaker =( () => {
+//      return counter
+//      });
+//      let counter = function(){
+//       while(count <= limit){
+//       console.log (count);
+//       count++
+//       }();
+      
+      
+    
+// console.log (counterMaker);
+
+
+
 
 //@ ==== Challenge 4: Create a counter function with an object that can increment and decrement ====
 

@@ -479,11 +479,6 @@ let runnersLargeSizeShirt = runners.filter(
 );
 console.log(runnersLargeSizeShirt);
 
-//@  let runnersLargeSizeShirt = [];
-//@ let replaceLarge = runners.filter(function(size){
-//@return runnersLargeSizeShirt.push(size.shirt_size === "L")
-//@});
-//@ console.log(replaceLarge);
 
 //@ ==== Challenge 4: Use .reduce() ====
 //@ The donations need to be tallied up and reported for tax purposes. Add up all the donations and save the total into a ticketPriceTotal variable.
